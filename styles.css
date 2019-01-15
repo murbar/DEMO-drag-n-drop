@@ -23,13 +23,15 @@ main {
 
 .board {
     width: 40%;
-    /* flex-grow: 0; */
+    flex-shrink: 0;
 
     background: oldlace;
     border-radius: 8px;
     margin-right: 1.5em;
     padding: 1em;
     min-height: 25%;
+    max-width: 26rem;
+    min-width: 20rem;
 }
 
 .board > h1 {
